@@ -1253,6 +1253,11 @@
     background-color: #3C464E;
     padding: 41px 0 29px 0;
 }
+.footer__content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 .footer__block {
     display: flex;
     justify-content: space-between;
@@ -1260,6 +1265,7 @@
 .footer__logo-block {
     display: flex;
     flex-direction: column;
+    margin-right: 83px;
 }
 .footer-logo {
     margin-bottom: 26px;
